@@ -14,6 +14,7 @@ setup(name='test_dependencies',
         'Operating System :: OS Independent'
       ],
       python_requires=">=3.8",
+      setup_requires=["numpy"],
       install_requires=[
           'pandas',
           'numpy',
