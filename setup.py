@@ -13,7 +13,6 @@ setup(name='test_dependencies',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent'
       ],
-      packages=['memo_ms'],
       python_requires=">=3.8",
       install_requires=[
           'pandas',
